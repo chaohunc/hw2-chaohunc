@@ -31,11 +31,10 @@ public class HugoAnnotator extends JCasAnnotator_ImplBase {
 
   @Override
   /**
-   * HugoGeneAnnotator used mainly two methods, “exact matching” and  “partial matching”. 
+   * HugoGeneAnnotator used mainly two methods, exact matching and  partial matching. 
    * For exact matching, it needs to match the sentence with the approved name of gene and 
    * previous approved name of gene. For partial matching, we only match each single word 
    *  in the sentence with a gene dictionary. They will all be sent to the CAS consumer. 
-   * 
    * @param JCAS
    *          aJCAS which has been processed by the CollectionReader
    * 

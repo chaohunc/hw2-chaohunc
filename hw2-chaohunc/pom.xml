@@ -100,4 +100,7 @@
 		<connection>scm:git:https://github.com/chaohunc/hw2-chaohunc.git</connection>
 		<developerConnection>scm:git:https://github.com/chaohunc/hw2-chaohunc.git</developerConnection>
 	</scm>
+	<properties>
+		<maven.javadoc.failOnError>false</maven.javadoc.failOnError>
+	</properties>
 </project>
