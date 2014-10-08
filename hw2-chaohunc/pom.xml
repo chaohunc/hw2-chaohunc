@@ -95,4 +95,8 @@
 			<version>1.0.3</version>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:https://github.com/chaohunc/hw2-chaohunc.git</connection>
+		<developerConnection>scm:git:https://github.com/chaohunc/hw2-chaohunc.git</developerConnection>
+	</scm>
 </project>
