@@ -134,6 +134,10 @@ public class HugoAnnotator extends JCasAnnotator_ImplBase {
             System.out.println("miss " + id + " " + ma.getKey());
 
           }*/
+          
+          System.out.println(id);
+          System.out.println(ma.getKey());
+          System.out.println(ma.getValue());
           HugoGeneObj ann = new HugoGeneObj(aJCas);
           ann.setCasProcessorId(id);
           ann.setConfidence(ma.getValue());

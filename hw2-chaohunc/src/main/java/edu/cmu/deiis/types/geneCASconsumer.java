@@ -112,7 +112,8 @@ public class geneCASconsumer extends CasConsumer_ImplBase {
 
       double score = gene.getConfidence();
 
-      if (hmap.containsKey(gene.getID())) {
+      if (hmap.containsKey(gene.getID())) 
+      {
         HashMap<String, Double> temp = hmap.get(gene.getID());
         String geneName = gene.getGeneName();
         for (Entry<String, Double> c : temp.entrySet()) {
