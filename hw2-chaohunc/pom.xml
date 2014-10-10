@@ -5,7 +5,7 @@
 
 </groupId>
 	<artifactId>hw2-chaohunc</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<repositories>
 		<repository>
 			<id>oaqa</id>
